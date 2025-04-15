@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Bungee+Tint&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Pacifico&family=Playwrite+BE+VLG:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="static/png.png" width="60px" height="60px">
+            </div>
+            <div class="name">
+                <h1 style="text-align: center;">Learnify</h1>
+            </div>
+            <div class="options">
+                <div class="space" style="width: 50%;"></div>
+                <div class="space2" style="width: 50%;">
+                    <!-- <button class="favorite styled" type="button">Log in / Sign up</button> -->
+                    <!-- <button class="favorite styled2" type="button">Contact us</button> -->
+                    <div class="apply">
+                        <button class="button button1" onclick="togglePopup()">Log in / Sign up</button>
+                        <div id="popupOverlay" 
+                 class="overlay-container">
+                <div class="popup-box">
+                    <h2 style="color: green;">Sign up</h2>
+                    <form class="form-container">
+                        <label class="form-label" 
+                               for="name">
+                          Name:
+                          </label>
+                        <input class="form-input" type="text" 
+                               placeholder="Enter Your Full Name" 
+                               id="name" name="name" required>
+        
+                        <label class="form-label" for="email">Email:</label>
+                        <input class="form-input"
+                               type="email" 
+                               placeholder="Enter Your Email"
+                               id="email" 
+                               name="email" required>
+        
+                        <label class="form-label" for="email">Number:</label>
+                        <input class="form-input"
+                                type="number" 
+                                placeholder="Enter Your Mobile Number"
+                                id="email" 
+                                name="email" required>
+                               
+                        <button class="btn-submit" 
+                                type="submit">
+                          request OTP
+                          </button>
+                    </form>
+        
+                    <button class="btn-close-popup" 
+                            onclick="togglePopup()">
+                      Close
+                      </button>
+                </div>
+            </div>
+        
+            <script>
+                function togglePopup() {
+                    const overlay = document.getElementById('popupOverlay');
+                    overlay.classList.toggle('show');
+                }
+            </script>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="introduce">
+        <div class="intro-line">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="line">Fueling Minds with Digital Learning</h2>
+            <p>Become the Top 1% Software Developer</p>
+        </div>
+        <div class="intro-img">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="mid">
+        <div class="mid1">
+            <img src="static/PremiumOfferIconNew.webp" width="550px" height="500px" style="border-radius: 10px;">
+        </div>
+        <div class="mid2">
+            <div class="one">
+                <h2>IIT & IIM Online Programs</h2>
+            </div>
+            <div class="two">
+                <h3>Get <i>Online Degree</i> to Boost Your Career</h3>
+            </div>
+            <h3>Feeling Stuck in Your Career? Upgrade with an Online Degree & Open New Doors! Explore courses & take the next step toward growth.</h3>
+        </div>
+    </div>
+    <h1 style="padding-left: 20px;">Explore Our Categories</h1>
+    <h3 style="padding-left: 20px;">Choose your passion for excellence</h3>
+    <br>
+    <div class="Categories">
+        <div class="cat1">
+            <div class="batch1 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Data Science & Analytics</h2></div>
+                        <h4>Become expert at drawing Intelligence from data and get..</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/one.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="batch2 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Banking & Finance</h2></div>
+                        <h4>Up-skill yourself with relevant courses to become job ready in</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/two.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="batch3 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Software Development Courses</h2></div>
+                        <h4>Upskill in-demand software & technology skills to attain desired.</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/three.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cat2">
+            <div class="batch4 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Programming Coursess</h2></div>
+                        <h4>Build strong coding foundation for a high-paying technology career</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/four.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="batch5 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Digital Marketing With AI</h2></div>
+                        <h4>Digital Marketing With Al</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/five.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="batch6 cat">
+                <div class="xyz">
+                    <div class="xyz-quote">
+                        <div class="xy"><h2>Product Management with AI</h2></div>
+                        <h4>Product Management with Al</h4>
+                    </div>
+                    <div class="xyz-img">
+                        <img src="static/six.svg" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="padding-left: 20px;">What makes us <b style="color: crimson;">Different</b></h1>
+    <br>
+    <br>
+    <div class="diff">
+        <div class="diff1">
+            <div class="diff12">
+                <img src="static/seven.svg" >
+            </div>
+            <h1>Daily live classes</h1>
+            <h4 style="font-size: 14px;">Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while the class is going on</h4>
+        </div>
+        <div class="diff2">
+            <div class="diff22">
+                <img src="static/eight.svg" >
+            </div>
+            <h1>Practice and revise</h1>
+            <h4 style="font-size: 14px;">Learning isn't just limited to classes with our practice section, mock tests and lecture notes shared as PDFs for your revision</h4>
+        </div>
+        <div class="diff3">
+            <div class="diff32">
+                <img src="static/nine.svg" >
+            </div>
+            <h1>Learn anytime, anywhere</h1>
+            <h4 style="font-size: 14px;">One subscription gets you access to all our live and recorded classes to watch from the comfort of any of your devices</h4>
+        </div>
+    </div>
+    <br>
+    <div class="master">
+        <div class="mas1">
+            <h1 style="padding-left: 30px;padding-top: 50px;font-size: 50px;">Learnify Brings You <i>MasterClass</i></h1>
+            <h3 style="padding-left: 30px;">Stuck in your job? Learn and grow with our masterclasses led by top industry experts. Dive into tech with seasoned leaders!</h3>
+            <button class="favorite styled3" type="button">Explore Masterclass</button>
+        </div>
+        <div class="mas2">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="banner">
+        <img src="static/Screenshot 2025-04-15 000300.jpg">
+    </div>
+    <h1 style="padding-left: 30px;color: crimson;">Success Stories</h1>
+    <br>
+    <div class="review">
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img soumya"></div>
+                <div class="pro-name"><h2>Soumyajit Ghosh</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  IT</li>
+                    <li>Year   : 2021-22</li>
+                    <li>Batch  : Codecatalyst 2.0</li>
+                    <li>Data Engineer at IBM</li>
+                  </ul>
+                <h2>Stipend - Confidential</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img amit"></div>
+                <div class="pro-name"><h2>Amit Goswami</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  CSE</li>
+                    <li>Year   : 2020-21</li>
+                    <li>Batch  : Codecatalyst</li>
+                    <li>Microsoft Intern</li>
+                  </ul>
+                <h2>Rs 11 lakh+/month Stipend</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img dipti"></div>
+                <div class="pro-name"><h2>Dipti Mandal</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  IT</li>
+                    <li>Year   : 2022-23</li>
+                    <li>Batch  : Codecatalyst 3.0</li>
+                    <li>Samsung(SDE)</li>
+                  </ul>
+                <h2>Stipend - Confidential</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img krishna"></div>
+                <div class="pro-name"><h2>Krishna Mandal</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  ECE</li>
+                    <li>Year   : 2022-23</li>
+                    <li>Batch  : Alpha 2.0</li>
+                    <li>Amazon(SDE)</li>
+                  </ul>
+                <h2>Stipend - Confidential</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="review">
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img vishma"></div>
+                <div class="pro-name"><h2>Vishmajit Chanda</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  IT</li>
+                    <li>Year   : 2020-21</li>
+                    <li>Batch  : Codecatalyst</li>
+                    <li>JP Morgan Intern</li>
+                  </ul>
+                <h2>Rs 13 lakh+/month Stipend</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img priyanka"></div>
+                <div class="pro-name"><h2>Priyanka Das</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  IT</li>
+                    <li>Year   : 2020-21</li>
+                    <li>Batch  : Codecatalyst</li>
+                    <li>JP Morgan Intern</li>
+                  </ul>
+                <h2>Rs 13 lakh+/month Stipend</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img arjun"></div>
+                <div class="pro-name"><h2>Arjun Goswami</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  CSE</li>
+                    <li>Year   : 2022-23</li>
+                    <li>Batch  : Alpha 2.0</li>
+                    <li>Goldman Sachs Intern</li>
+                  </ul>
+                <h2>Rs 6 lakh/month CTC</h2>
+            </div>
+        </div>
+        <div class="rev">
+            <div class="profile">
+                <div class="pro-img nouraj"></div>
+                <div class="pro-name"><h2>Nouraj Kabir Midya</h2></div>
+            </div>
+            <div class="detail">
+                <ul>
+                    <li>Branch :  ECE</li>
+                    <li>Year   : 2022-23</li>
+                    <li>Batch  : Alpha 2.0</li>
+                    <li>Citi Bank Intern</li>
+                  </ul>
+                <h2>Rs 6 lakh/month CTC</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1 style="text-align: center;">On a mission to teach Millions,<B>Thank you...</B></h1>
+    <br>
+    <div class="foot">
+        <div class="foot1">
+            <h1 style="padding-left: 30px;font-size: 50px;color: rgba(240, 248, 255, 0.521);">Learnify.com</h1>
+        </div>
+        <div class="foot2">
+            <div class="div-one">
+                <div class="mail">
+                    <img src="static/mail.png" style="margin-top: 20px;">
+                    <h2 style="margin-top: 35px; color: aliceblue;">learnify180@gmail.com</h2>
+                </div>
+                <div class="mail">
+                    <img src="static/png2.png" style="margin-top: 20px;">
+                    <h2 style="margin-top: 38px; color: aliceblue;">+91 7318716791</h2>
+                </div>
+            </div>
+            <div class="div-two">
+                <ul style="color: aliceblue;">
+                    <li>About us</li>
+                    <li>FAQ</li>
+                    <li>Privacy policy</li>
+                    <li>Social media</li>
+                    <li>Offline Center</li>
+                    <li>subscription</li>
+                  </ul>
+            </div>
+            <div class="div-three">
+                <ul style="color: aliceblue;">
+                    <li>Contact us</li>
+                    <li>Career Service</li>
+                    <li>Terms & Conditions</li>
+                  </ul>
+            </div>
+            <div class="div-four">
+                <ul style="color: aliceblue;">
+                    <li>Experience Portal</li>
+                    <li>Hall of Fame</li>
+                    <li>Become an affiliate</li>
+                    <li>Blog</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lastfoot">
+        <!-- <h3>Conditions of Use Privacy notice made by Soumyajit Ghosh,15th April 2025</h3> -->
+        <h3 style="text-align: center;color: aliceblue;">Conditions of Use Privacy notice made by Soumyajit Ghosh,15th April 2025</h3>
+    </div>
+</body>
+</html>
